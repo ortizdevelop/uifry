@@ -1,3 +1,10 @@
-@charset "UTF-8";
-/*Обнуление*/
 @import url("/css/nullstyle.css");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+html, body {
+  font-family: "Space Grotesk", sans-serif;
+  position: relative;
+  width: 1440px;
+  height: 6143px;
+  color: #FFFFFF;
+  background: #050505;
+}

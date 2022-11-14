@@ -1,2 +1,28 @@
-/*Обнуление*/
+//* Zeroing
 @import url('/css/nullstyle.css');
+
+//* Import
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+//* Templates
+
+$bd1: 1px solid red;
+$bd2: 1px solid blue;
+$bd3: 1px solid green;
+
+$color1: #FFFFFF;
+$color2: #00FFA3;
+$color3: #000000;
+$color4: #828282;
+$color5: #363636;
+$color6: #111111;
+
+//* Main Web-Site settings
+html, body{
+    font-family: 'Space Grotesk', sans-serif;
+    position: relative;
+    width: 1440px;
+    height: 6143px;
+    color: $color1;
+    background: #050505;
+}
