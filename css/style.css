@@ -3,8 +3,16 @@
 html, body {
   font-family: "Space Grotesk", sans-serif;
   position: relative;
-  width: 1440px;
-  height: 6143px;
+  max-width: 1694.5px;
+  max-height: 6143px;
   color: #FFFFFF;
   background: #050505;
+}
+
+.header__body {
+  width: 1694.5px;
+  height: 1007px;
+  display: flex;
+  flex-direction: column;
+  background: url("/img/bgh.png") right no-repeat;
 }

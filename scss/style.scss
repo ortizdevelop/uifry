@@ -21,8 +21,8 @@ $color6: #111111;
 html, body{
     font-family: 'Space Grotesk', sans-serif;
     position: relative;
-    width: 1440px;
-    height: 6143px;
+    max-width: 1694.5px;
+    max-height: 6143px;
     color: $color1;
     background: #050505;
 }
@@ -31,6 +31,11 @@ html, body{
 .header {
 
     &__body {
+        width: 1694.5px;
+        height: 1007px;
+        display: flex;
+        flex-direction: column;
+        background: url('/img/bgh.png')right no-repeat;
     }
 
     &__nav {
