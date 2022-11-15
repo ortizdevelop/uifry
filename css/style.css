@@ -104,7 +104,6 @@ html, body {
   transition: 0.3s;
 }
 .header__nav-list-left a:active span {
-  font-size: 17px;
   color: #00FFA3;
 }
 .header__nav-list-left a:active .dot {
