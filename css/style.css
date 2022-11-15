@@ -10,11 +10,13 @@ html, body {
 }
 
 .header__body {
+  position: relative;
   width: 1694.5px;
   height: 1007px;
   display: flex;
   flex-direction: column;
   background: url("/img/bgh.png") right no-repeat;
+  z-index: 1;
 }
 .header__nav-menu {
   margin-top: 79px;
@@ -132,6 +134,98 @@ html, body {
   transition: 0.3s;
   border: 2px solid #000000;
 }
+.header__left {
+  position: absolute;
+  width: 1030px;
+  height: 602px;
+  left: 100px;
+  top: 241px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  z-index: 5;
+}
 .header__image {
   margin-top: 166px;
+}
+.header__subtitle {
+  position: relative;
+  top: 70px;
+  left: 15px;
+  font-size: 32px;
+  line-height: 41px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #00ffa3;
+}
+.header__title {
+  font-size: 80px;
+  text-transform: capitalize;
+  color: #fff;
+}
+.header__title .vision {
+  position: relative;
+  top: 0;
+  left: 300px;
+}
+.header__title .affordable {
+  position: relative;
+}
+.header__portfolio-list {
+  margin-top: 40px;
+  display: inline-block;
+  align-items: center;
+  width: 148px;
+  height: 148px;
+  margin-right: 56px;
+}
+.header__portfolio-list p {
+  margin-bottom: 5px;
+}
+.header .get-started {
+  background-color: #00FFA3;
+  text-align: center;
+  align-items: center;
+}
+.header .get-started p {
+  padding-top: 40px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #111;
+}
+.header .trusted-companies {
+  position: relative;
+  top: 30px;
+}
+.header .trusted-companies p {
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #fff;
+}
+.header .trusted-companies span {
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #828282;
+}
+.header .projects-completed {
+  align-items: center;
+  position: relative;
+  top: 30px;
+}
+.header .projects-completed p {
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #fff;
+}
+.header .projects-completed span {
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #828282;
 }

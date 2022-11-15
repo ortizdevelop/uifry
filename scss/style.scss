@@ -31,11 +31,13 @@ html, body{
 .header {
 
     &__body {
+        position: relative;
         width: 1694.5px;
         height: 1007px;
         display: flex;
         flex-direction: column;
         background: url('/img/bgh.png')right no-repeat;
+        z-index: 1;
     }
 
     &__nav {
@@ -192,6 +194,15 @@ html, body{
     }
 
     &__left {
+        position: absolute;
+        width: 1030px;
+        height: 602px;
+        left: 100px;
+        top: 241px;
+        margin-left: 100px;
+        display: flex;
+        flex-direction: column;
+        z-index: 5;
     }
 
     &__image {
@@ -199,18 +210,105 @@ html, body{
     }
 
     &__subtitle {
+        position: relative;
+        top: 70px;
+        left: 15px;
+        font-size: 32px;
+        line-height: 41px;
+        font-weight: 700;
+        text-transform: capitalize;
+        color: #00ffa3;
     }
 
     &__title {
+        font-size: 80px;
+        text-transform: capitalize;
+        color: #fff;
+
+        .vision{
+            position: relative;
+            top: 0;
+            left: 300px;
+        }
+
+        .affordable{
+            position: relative;
+        }
     }
 
     &__portfolio {
     }
 
     &__portfolio-column {
+        
     }
 
     &__portfolio-list {
+        margin-top: 40px;
+        display: inline-block;
+        align-items: center;
+        width: 148px;
+        height: 148px;
+        margin-right: 56px;
+
+        p{
+            margin-bottom: 5px;
+        }
+    }
+
+    .get-started{
+        background-color: $color2;
+        text-align: center;
+        align-items: center;
+
+        p{
+            padding-top: 40px;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 30px;
+            text-align: center;
+            text-transform: capitalize;
+            color: #111;
+        }
+    }
+
+    .trusted-companies{
+        position: relative;
+        top: 30px;
+
+        p{
+            font-size: 60px;
+            font-weight: 700;
+            text-transform: capitalize;
+            color: #fff;
+        }
+
+        span{
+            font-size: 24px;
+            line-height: 30px;
+            text-transform: capitalize;
+            color: #828282;
+        }
+    }
+
+    .projects-completed{
+        align-items: center;
+        position: relative;
+        top: 30px;
+
+        p{
+            font-size: 60px;
+            font-weight: 700;
+            text-transform: capitalize;
+            color: #fff;
+        }
+
+        span{
+            font-size: 24px;
+            line-height: 30px;
+            text-transform: capitalize;
+            color: #828282;
+        }
     }
 
     &__right {
