@@ -186,8 +186,10 @@ html, body {
   background-color: #00FFA3;
   text-align: center;
   align-items: center;
+  transition: 0.3s;
 }
 .header .get-started p {
+  transition: 0.3s;
   padding-top: 40px;
   font-size: 24px;
   font-weight: 700;
@@ -196,36 +198,66 @@ html, body {
   text-transform: capitalize;
   color: #111;
 }
+.header .get-started:hover {
+  background-color: #000000;
+}
+.header .get-started:hover p {
+  transition: 0.3s;
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #00FFA3;
+}
 .header .trusted-companies {
   position: relative;
   top: 30px;
+  transition: 0.3s;
 }
 .header .trusted-companies p {
+  transition: 0.3s;
   font-size: 60px;
   font-weight: 700;
   text-transform: capitalize;
   color: #fff;
 }
 .header .trusted-companies span {
+  transition: 0.3s;
   font-size: 24px;
   line-height: 30px;
   text-transform: capitalize;
   color: #828282;
 }
+.header .trusted-companies:hover p {
+  color: #00FFA3;
+}
+.header .trusted-companies:hover span {
+  color: #00FFA3;
+  opacity: 40%;
+}
 .header .projects-completed {
   align-items: center;
   position: relative;
   top: 30px;
+  transition: 0.3s;
 }
 .header .projects-completed p {
+  transition: 0.3s;
   font-size: 60px;
   font-weight: 700;
   text-transform: capitalize;
   color: #fff;
 }
 .header .projects-completed span {
+  transition: 0.3s;
   font-size: 24px;
   line-height: 30px;
   text-transform: capitalize;
   color: #828282;
+}
+.header .projects-completed:hover p {
+  color: #00FFA3;
+}
+.header .projects-completed:hover span {
+  color: #00FFA3;
+  opacity: 40%;
 }

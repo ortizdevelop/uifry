@@ -260,8 +260,10 @@ html, body{
         background-color: $color2;
         text-align: center;
         align-items: center;
+        transition: 0.3s;
 
         p{
+            transition: 0.3s;
             padding-top: 40px;
             font-size: 24px;
             font-weight: 700;
@@ -270,13 +272,28 @@ html, body{
             text-transform: capitalize;
             color: #111;
         }
+
+        &:hover{
+            background-color: $color3;
+
+            p{
+                transition: 0.3s;
+                font-size: 35px;
+                font-weight: 700;
+                text-transform: capitalize;
+                color: $color2;
+            }
+        }
+
     }
 
     .trusted-companies{
         position: relative;
         top: 30px;
+        transition: 0.3s;
 
         p{
+            transition: 0.3s;
             font-size: 60px;
             font-weight: 700;
             text-transform: capitalize;
@@ -284,10 +301,22 @@ html, body{
         }
 
         span{
+            transition: 0.3s;
             font-size: 24px;
             line-height: 30px;
             text-transform: capitalize;
             color: #828282;
+        }
+
+        &:hover{
+            p{
+                color: $color2;
+            }
+
+            span{
+                color: $color2;
+                opacity: 40%;
+            }
         }
     }
 
@@ -295,8 +324,10 @@ html, body{
         align-items: center;
         position: relative;
         top: 30px;
+        transition: 0.3s;
 
         p{
+            transition: 0.3s;
             font-size: 60px;
             font-weight: 700;
             text-transform: capitalize;
@@ -304,10 +335,23 @@ html, body{
         }
 
         span{
+            transition: 0.3s;
             font-size: 24px;
             line-height: 30px;
             text-transform: capitalize;
             color: #828282;
+        }
+
+        &:hover{
+
+            p{
+                color: $color2;
+            }
+
+            span{
+                color: $color2;
+                opacity: 40%;
+            }
         }
     }
 
