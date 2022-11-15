@@ -417,6 +417,9 @@ html, body{
 .select {
 
     &__body {
+        width: $width1;
+        height: 1362px;
+        background: #101010 url('/img/select-and-project.png') no-repeat;
     }
 
     &__up {
@@ -457,7 +460,7 @@ html, body{
 
     .house {
     }
-    
+
     .arrow {
     }
 }

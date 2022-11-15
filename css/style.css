@@ -306,3 +306,9 @@ html, body {
 .header__banner img {
   width: 1694.5px;
 }
+
+.select__body {
+  width: 1694.5px;
+  height: 1362px;
+  background: #101010 url("/img/select-and-project.png") no-repeat;
+}
