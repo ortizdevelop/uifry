@@ -3,8 +3,8 @@
 html, body {
   font-family: "Space Grotesk", sans-serif;
   position: relative;
-  max-width: 1694.5px;
-  max-height: 6143px;
+  width: 1694.5px;
+  height: 6143px;
   color: #FFFFFF;
   background: #050505;
 }
@@ -145,7 +145,7 @@ html, body {
   z-index: 5;
 }
 .header__image {
-  margin-top: 166px;
+  margin-top: 6px;
 }
 .header__subtitle {
   position: relative;
@@ -259,4 +259,50 @@ html, body {
 .header .projects-completed:hover span {
   color: #00FFA3;
   opacity: 40%;
+}
+.header__right {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 619px;
+  height: 614px;
+  left: 980px;
+  top: 284px;
+}
+.header__icon {
+  position: relative;
+  left: 292px;
+  transition: 0.3s;
+}
+.header__icon:hover {
+  transition: 0.3s;
+  transform: scale(1.05);
+}
+.header__desc p {
+  padding: 37px;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #828282;
+  background: rgba(17, 17, 17, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 0px 500px 500px 0px;
+  transition: 0.3s;
+}
+.header__desc p span {
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+}
+.header__banner {
+  position: relative;
+  text-align: center;
+  align-items: center;
+  top: -40px;
+}
+.header__banner img {
+  width: 1694.5px;
 }

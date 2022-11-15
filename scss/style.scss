@@ -17,12 +17,14 @@ $color4: #828282;
 $color5: #363636;
 $color6: #111111;
 
+$width1: 1694.5px;
+
 //* Main Web-Site settings
 html, body{
     font-family: 'Space Grotesk', sans-serif;
     position: relative;
-    max-width: 1694.5px;
-    max-height: 6143px;
+    width: 1694.5px;
+    height: 6143px;
     color: $color1;
     background: #050505;
 }
@@ -205,7 +207,7 @@ html, body{
     }
 
     &__image {
-        margin-top: 166px;
+        margin-top: 6px;
     }
 
     &__subtitle {
@@ -355,14 +357,58 @@ html, body{
     }
 
     &__right {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 619px;
+        height: 614px;
+        left: 980px;
+        top: 284px;
     }
 
     &__icon {
+        position: relative;
+        left: 292px;
+        transition: 0.3s;
+
+        &:hover{
+            transition: 0.3s;
+            transform: scale(1.05);
+        }
     }
 
     &__desc {
+        p{
+            padding: 37px;
+            font-size: 18px;
+            line-height: 30px;
+            text-transform: capitalize;
+            color: #828282;
+            background: rgba(17, 17, 17, 0.5);
+            backdrop-filter: blur(10px);
+            border-radius: 0px 500px 500px 0px;
+            transition: 0.3s;
+
+            span{
+                font-size: 18px;
+                line-height: 30px;  
+                color: #FFFFFF;
+                text-transform: capitalize;
+            }
+        }
+
+        
     }
 
     &__banner {
+        position: relative;
+        text-align: center;
+        align-items: center;
+        top: -40px;
+
+        img{
+            width: $width1;
+        }
     }
 }
