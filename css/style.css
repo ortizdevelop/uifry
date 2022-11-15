@@ -115,6 +115,23 @@ html, body {
 .header__nav-list-right:nth-child(6) {
   margin-left: 606px;
 }
+.header__nav-list-right a {
+  transition: 0.3s;
+  border: 2px solid #FDFDFD;
+  padding: 16px 24px;
+}
+.header__nav-list-right a span {
+  transition: 0.3s;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: #000;
+}
+.header__nav-list-right a:hover {
+  transition: 0.3s;
+  border: 2px solid #000000;
+}
 .header__image {
   margin-top: 166px;
 }
