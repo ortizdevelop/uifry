@@ -42,18 +42,134 @@ html, body{
     }
 
     &__nav-menu {
+        margin-top: 79px;
     }
 
     &__nav-logo {
+        display: inline;
+        margin-right: 56px;
+        margin-left: 100px;
+        transition: 0.3s;
+        
+        img{
+            transition: 0.3s;
+            
+            &:hover{
+                transition: 0.3s;
+                transform: scale(1.1);
+            }
+        }
     }
 
     &__nav-list-left {
+        display: inline;
+        margin-right: 24px;
+
+        a{
+            transition: 0.3s;
+            padding: 6px;
+
+            span{
+                &:nth-child(1){
+                    transition: 0.3s;
+                    font-size: 16px;
+                    font-weight: 200;
+                    line-height: 26px;
+                    text-transform: capitalize;
+                    color: #fff;
+                }
+            }
+
+            .dot{
+                content: '';
+                position: absolute;
+                top: 88px;
+                left: 209.5px;
+                color: $color2;
+                width: 9px;
+                height: 9px;
+                background-color: $color2;
+                border-radius: 50%;
+                transition: 0.3s;
+                opacity: 0;
+            }
+
+            .dot1{   
+                position: absolute;
+                transition: 0.3s;
+                top: 88px;
+                left: 308.5px;
+            }
+
+            .dot2{
+                
+                position: absolute;
+                transition: 0.3s;
+                top: 88px;
+                left: 413.5px;
+            }
+
+            .dot3{
+                
+                position: absolute;
+                transition: 0.3s;
+                top: 88px;
+                left: 530.5px;
+            }
+
+            .dot4{
+                
+                position: absolute;
+                transition: 0.3s;
+                top: 88px;
+                left: 670.5px;
+            }
+
+            &:hover{
+                transition: 0.3s;
+
+                span{
+                    transition: 0.3s;
+                    font-weight: bold;
+                }
+
+                .dot{
+                    transition: 0.3s;
+                    position: absolute;
+                    top: 108px;
+                    opacity: 1;
+                }
+            }
+
+            &:active{
+                transition: 0.3s;
+
+                span{
+                    font-size: 17px;
+                    color: $color2;
+                }
+
+                .dot{
+                    opacity: 0;
+                }
+            }
+        }
     }
 
     &__nav-link-left {
     }
 
     &__nav-list-right {
+        display: inline;
+        margin-right: 48px;
+
+        &:nth-child(6){
+            margin-left: 606px;
+        }
+
+        a{
+            
+        }
     }
 
     &__nav-link-right {
@@ -63,6 +179,7 @@ html, body{
     }
 
     &__image {
+        margin-top: 166px;
     }
 
     &__subtitle {

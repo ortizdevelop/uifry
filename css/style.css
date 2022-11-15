@@ -16,3 +16,105 @@ html, body {
   flex-direction: column;
   background: url("/img/bgh.png") right no-repeat;
 }
+.header__nav-menu {
+  margin-top: 79px;
+}
+.header__nav-logo {
+  display: inline;
+  margin-right: 56px;
+  margin-left: 100px;
+  transition: 0.3s;
+}
+.header__nav-logo img {
+  transition: 0.3s;
+}
+.header__nav-logo img:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+.header__nav-list-left {
+  display: inline;
+  margin-right: 24px;
+}
+.header__nav-list-left a {
+  transition: 0.3s;
+  padding: 6px;
+}
+.header__nav-list-left a span:nth-child(1) {
+  transition: 0.3s;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: #fff;
+}
+.header__nav-list-left a .dot {
+  content: "";
+  position: absolute;
+  top: 88px;
+  left: 209.5px;
+  color: #00FFA3;
+  width: 9px;
+  height: 9px;
+  background-color: #00FFA3;
+  border-radius: 50%;
+  transition: 0.3s;
+  opacity: 0;
+}
+.header__nav-list-left a .dot1 {
+  position: absolute;
+  transition: 0.3s;
+  top: 88px;
+  left: 308.5px;
+}
+.header__nav-list-left a .dot2 {
+  position: absolute;
+  transition: 0.3s;
+  top: 88px;
+  left: 413.5px;
+}
+.header__nav-list-left a .dot3 {
+  position: absolute;
+  transition: 0.3s;
+  top: 88px;
+  left: 530.5px;
+}
+.header__nav-list-left a .dot4 {
+  position: absolute;
+  transition: 0.3s;
+  top: 88px;
+  left: 670.5px;
+}
+.header__nav-list-left a:hover {
+  transition: 0.3s;
+}
+.header__nav-list-left a:hover span {
+  transition: 0.3s;
+  font-weight: bold;
+}
+.header__nav-list-left a:hover .dot {
+  transition: 0.3s;
+  position: absolute;
+  top: 108px;
+  opacity: 1;
+}
+.header__nav-list-left a:active {
+  transition: 0.3s;
+}
+.header__nav-list-left a:active span {
+  font-size: 17px;
+  color: #00FFA3;
+}
+.header__nav-list-left a:active .dot {
+  opacity: 0;
+}
+.header__nav-list-right {
+  display: inline;
+  margin-right: 48px;
+}
+.header__nav-list-right:nth-child(6) {
+  margin-left: 606px;
+}
+.header__image {
+  margin-top: 166px;
+}
