@@ -665,4 +665,40 @@ html, body {
 .testimonials__body {
   margin-top: 140px;
   padding-left: 100px;
+  display: flex;
+  position: relative;
+  width: 1440px;
+  height: 550px;
+  background: url("/img/testimonials.png") 0px 125px no-repeat;
+}
+.testimonials__left-title {
+  margin-bottom: 28px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #00ffa3;
+}
+.testimonials__left-subtitle1 {
+  margin-bottom: 8px;
+  font-size: 24px;
+  text-transform: capitalize;
+  color: #fff;
+}
+.testimonials__left-subtitle2 {
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #fff;
+}
+.testimonials__right-title {
+  position: relative;
+  left: 121px;
+  width: 925px;
+  height: 244px;
+  font-size: 48px;
+  text-transform: capitalize;
+}
+.testimonials__right-title span {
+  color: #00FFA3;
 }
