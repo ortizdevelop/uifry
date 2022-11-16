@@ -588,6 +588,190 @@ html, body{
 }
 
 //* About
+.about {
+
+    &__body {
+        width: 1440px;
+        height: 1308px;
+        margin-left: 100px;
+        background: url('/img/about.png')0px 0px no-repeat;
+    }
+
+    &__title {
+        margin-top: 155px;
+        margin-bottom: 16px;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 30px;
+        text-transform: capitalize;
+        color: #00ffa3;
+    }
+
+    &__subtitle {
+        margin-bottom: 106px;
+        font-size: 60px;
+        text-transform: capitalize;
+        color: #fff;
+    }
+
+    &__browse {
+    }
+
+    &__browse-body {
+        display: flex;
+        margin-bottom: 90px;
+    }
+
+    &__browse-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__browse-number {
+    }
+
+    &__browse-title {
+    }
+
+    &__browse-text {
+    }
+
+    &__browse-link {
+    }
+
+    &__browse-image {
+        position: relative;
+        left: 190px;
+    }
+
+    &__learn {
+    }
+
+    &__learn-body {
+        display: flex;
+        margin-bottom: 90px;
+    }
+
+    &__learn-content{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 190px;
+    }
+
+    &__learn-image {
+    }
+
+    &__learn-number {
+    }
+
+    &__learn-title {
+    }
+
+    &__learn-text {
+    }
+
+    &__learn-link {
+    }
+
+    &__estimate {
+    }
+
+    &__estimate-body {
+        display: flex;
+    }
+
+    &__estimate-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__estimate-number {
+    }
+
+    &__estimate-title {
+    }
+
+    &__estimate-text {
+    }
+
+    &__estimate-link {
+    }
+
+    &__estimate-image {
+        position: relative;
+        left: 190px;
+    }
+
+    .about-number {
+        margin-bottom: 16px;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 30px;
+        text-transform: capitalize;
+        color: #00ffa3;
+    }
+    
+    .about-title {
+        margin-bottom: 16px;
+        font-size: 48px;
+        text-transform: capitalize;
+        color: #fff;
+    }
+    
+    .about-text {
+        margin-bottom: 16px;
+        font-size: 18px;
+        line-height: 30px;
+        text-transform: capitalize;
+    }
+    
+    .about-link {
+        a{
+            border: 1px solid $color3;
+            border-radius: 4px;
+            padding: 10px;
+            position: relative;
+            right: 10px;
+            transition: 0.3s;
+
+            span{
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 30px;
+                text-align: center;
+                text-transform: capitalize;
+                color: #00ffa3;
+                background: url('/img/Line.png') right no-repeat;
+                padding-right: 25px;
+                transition: 0.3s;
+            }
+
+            &:hover{
+                transition: 0.3s;
+                border: 1px solid $color2;
+                background-color: $color2;
+
+                span{
+                    transition: 0.3s;
+                    color: $color3;
+                    background: url('/img/Line1.png') right no-repeat;
+                }
+            }
+
+            &:active{
+                transition: 0.3s;
+                position: relative;
+                top: 3px;
+            }
+        }
+    }
+    
+    .about-img {
+    }
+}
+
+
 
 
 //* Homes
@@ -597,6 +781,3 @@ html, body{
 
 
 //* Footer
-
-
-//* General Classes

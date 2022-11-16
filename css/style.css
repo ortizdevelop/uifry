@@ -445,3 +445,112 @@ html, body {
   left: 670px;
   top: -140px;
 }
+
+.about__body {
+  width: 1440px;
+  height: 1308px;
+  margin-left: 100px;
+  background: url("/img/about.png") 0px 0px no-repeat;
+}
+.about__title {
+  margin-top: 155px;
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #00ffa3;
+}
+.about__subtitle {
+  margin-bottom: 106px;
+  font-size: 60px;
+  text-transform: capitalize;
+  color: #fff;
+}
+.about__browse-body {
+  display: flex;
+  margin-bottom: 90px;
+}
+.about__browse-content {
+  display: flex;
+  flex-direction: column;
+}
+.about__browse-image {
+  position: relative;
+  left: 190px;
+}
+.about__learn-body {
+  display: flex;
+  margin-bottom: 90px;
+}
+.about__learn-content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 190px;
+}
+.about__estimate-body {
+  display: flex;
+}
+.about__estimate-content {
+  display: flex;
+  flex-direction: column;
+}
+.about__estimate-image {
+  position: relative;
+  left: 190px;
+}
+.about .about-number {
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #00ffa3;
+}
+.about .about-title {
+  margin-bottom: 16px;
+  font-size: 48px;
+  text-transform: capitalize;
+  color: #fff;
+}
+.about .about-text {
+  margin-bottom: 16px;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+.about .about-link a {
+  border: 1px solid #000000;
+  border-radius: 4px;
+  padding: 10px;
+  position: relative;
+  right: 10px;
+  transition: 0.3s;
+}
+.about .about-link a span {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #00ffa3;
+  background: url("/img/Line.png") right no-repeat;
+  padding-right: 25px;
+  transition: 0.3s;
+}
+.about .about-link a:hover {
+  transition: 0.3s;
+  border: 1px solid #00FFA3;
+  background-color: #00FFA3;
+}
+.about .about-link a:hover span {
+  transition: 0.3s;
+  color: #000000;
+  background: url("/img/Line1.png") right no-repeat;
+}
+.about .about-link a:active {
+  transition: 0.3s;
+  position: relative;
+  top: 3px;
+}
