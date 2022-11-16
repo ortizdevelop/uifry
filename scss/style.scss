@@ -421,7 +421,7 @@ html, body{
         top: -40px;
         width: $width1;
         height: 1362px;
-        background: #101010 url('/img/select-and-project.png') no-repeat;
+        background: #101010 url('/img/select-and-project.png') 0px 230px no-repeat;
     }
 
     &__up {
@@ -436,14 +436,83 @@ html, body{
 
     &__column {
         display: flex;
+        text-align: center;
+        align-items: center;
     }
 
     &__list {
+        a{
+            img{
+                position: relative;
+                margin-right: 24px;
+                transition: 0.3s;
+
+                &:hover{
+                    transition: 0.3s;
+                    position: relative;
+                    transform: translateY(-5px);
+                    transform: scale(1.1);
+                }
+            }
+        }
     }
 
     &__button {
         display: flex;
-        margin-left: 112px;
+        margin-left: 182px;
+        border: 2px solid #363636;
+        padding: 33px 27px 29px 33px;
+
+        p{
+            font-size: 18px;
+            line-height: 30px;
+            text-transform: capitalize;
+            color: #828282;
+            transition: 0.3s;
+        }
+
+        a{
+            position: relative;
+            padding: 16px 24px;
+            border: 2px solid #FFFFFF;
+            margin-right: 16px;
+            left: 24px;
+            transition: 0.3s;
+
+            span{
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 26px;
+                text-transform: capitalize;
+                color: #fff;
+                transition: 0.3s;
+            }
+
+            &:hover{
+                transition: 0.3s;
+                border: 2px solid $color2;
+                background-color: $color2;
+
+                span{
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 26px;
+                    text-transform: capitalize;
+                    color: #131313;
+                }
+            }
+
+            &:active{
+                transition: 0.3s;
+                background-color: $color6;
+                border: 2px solid $color6;
+
+                span{
+                    transition: 0.3s;
+                    color: $color2;
+                }
+            }
+        }
     }
 
     &__button-text {

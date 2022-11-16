@@ -312,7 +312,7 @@ html, body {
   top: -40px;
   width: 1694.5px;
   height: 1362px;
-  background: #101010 url("/img/select-and-project.png") no-repeat;
+  background: #101010 url("/img/select-and-project.png") 0px 230px no-repeat;
 }
 .select__up {
   display: flex;
@@ -324,8 +324,67 @@ html, body {
 }
 .select__column {
   display: flex;
+  text-align: center;
+  align-items: center;
+}
+.select__list a img {
+  position: relative;
+  margin-right: 24px;
+  transition: 0.3s;
+}
+.select__list a img:hover {
+  transition: 0.3s;
+  position: relative;
+  transform: translateY(-5px);
+  transform: scale(1.1);
 }
 .select__button {
   display: flex;
-  margin-left: 112px;
+  margin-left: 182px;
+  border: 2px solid #363636;
+  padding: 33px 27px 29px 33px;
+}
+.select__button p {
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #828282;
+  transition: 0.3s;
+}
+.select__button a {
+  position: relative;
+  padding: 16px 24px;
+  border: 2px solid #FFFFFF;
+  margin-right: 16px;
+  left: 24px;
+  transition: 0.3s;
+}
+.select__button a span {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: #fff;
+  transition: 0.3s;
+}
+.select__button a:hover {
+  transition: 0.3s;
+  border: 2px solid #00FFA3;
+  background-color: #00FFA3;
+}
+.select__button a:hover span {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: #131313;
+}
+.select__button a:active {
+  transition: 0.3s;
+  background-color: #111111;
+  border: 2px solid #111111;
+}
+.select__button a:active span {
+  transition: 0.3s;
+  color: #00FFA3;
 }
