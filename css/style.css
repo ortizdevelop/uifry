@@ -661,3 +661,8 @@ html, body {
   top: -5px;
   left: 61px;
 }
+
+.testimonials__body {
+  margin-top: 140px;
+  padding-left: 100px;
+}
