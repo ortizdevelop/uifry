@@ -445,3 +445,14 @@ html, body {
   left: 670px;
   top: -140px;
 }
+
+.homes__body {
+  margin-top: 155px;
+  width: 1440px;
+}
+.homes__title {
+  margin-bottom: 16px;
+}
+.homes__subtitle {
+  margin-bottom: 71px;
+}

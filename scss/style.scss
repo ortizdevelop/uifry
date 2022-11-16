@@ -594,12 +594,16 @@ html, body{
 .homes {
 
     &__body {
+        margin-top: 155px;
+        width: 1440px;
     }
 
     &__title {
+        margin-bottom: 16px;
     }
 
     &__subtitle {
+        margin-bottom: 71px;
     }
 
     &__slider {
