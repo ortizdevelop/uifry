@@ -441,6 +441,8 @@ html, body{
     }
 
     &__list {
+        position: relative;
+        top: -70px;
         a{
             img{
                 position: relative;
@@ -462,6 +464,7 @@ html, body{
         margin-left: 182px;
         border: 2px solid #363636;
         padding: 33px 27px 29px 33px;
+        margin-bottom: 142px;
 
         p{
             font-size: 18px;
@@ -522,24 +525,65 @@ html, body{
     }
 
     &__title {
+        margin-left: 100px;
+        margin-bottom: 16px;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 30px;
+        text-transform: capitalize;
+        color: #00ffa3;
     }
 
     &__subtitle {
+        margin-left: 100px;
+        margin-bottom: 141px;
+        font-size: 60px;
+        text-transform: capitalize;
+        color: #fff;
     }
 
     &__image {
+        width: 710px;
+        height: 602px;
+        margin-left: 100px;
+        transition: 0.3s;
+        
+        &:hover{
+            transition: 0.3s;
+            transform: scale(1.1);
+        }
     }
 
     &__text1 {
+        margin-left: 100px;
+        position: relative;
+        top: -510px;
+        left: 570px;
+        font-size: 60px;
+        text-transform: capitalize;
+        color: #fff;
     }
 
     &__text2 {
+        margin-left: 100px;
+        position: relative;
+        top: -430px;
+        left: 750px;
+        font-size: 18px;
+        line-height: 30px;
+        text-transform: capitalize;
+        width: 545px;
+        height: 90px;
+        color: $color4;
     }
 
     .house {
     }
 
     .arrow {
+        position: relative;
+        left: 670px;
+        top: -140px;
     }
 }
 
