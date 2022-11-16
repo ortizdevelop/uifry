@@ -446,7 +446,6 @@ html, body {
   top: -140px;
 }
 
-<<<<<<< HEAD
 .about__body {
   width: 1440px;
   height: 1308px;
@@ -455,15 +454,6 @@ html, body {
 }
 .about__title {
   margin-top: 155px;
-=======
-.homes__body {
-  margin-top: 155px;
-  padding-left: 100px;
-  width: 1440px;
-  background: url("/img/homes.png") 30px 75px no-repeat;
-}
-.homes__title {
->>>>>>> 75eaabc5523413be58a394d8ef80f9437518be05
   margin-bottom: 16px;
   font-size: 24px;
   font-weight: 700;
@@ -471,18 +461,12 @@ html, body {
   text-transform: capitalize;
   color: #00ffa3;
 }
-<<<<<<< HEAD
 .about__subtitle {
   margin-bottom: 106px;
-=======
-.homes__subtitle {
-  margin-bottom: 71px;
->>>>>>> 75eaabc5523413be58a394d8ef80f9437518be05
   font-size: 60px;
   text-transform: capitalize;
   color: #fff;
 }
-<<<<<<< HEAD
 .about__browse-body {
   display: flex;
   margin-bottom: 90px;
@@ -526,23 +510,10 @@ html, body {
 }
 .about .about-title {
   margin-bottom: 16px;
-=======
-.homes__columns {
-  display: flex;
-}
-.homes__image {
-  margin-right: 70px;
-  margin-bottom: 24px;
-}
-.homes__house-name {
-  position: relative;
-  display: inline;
->>>>>>> 75eaabc5523413be58a394d8ef80f9437518be05
   font-size: 48px;
   text-transform: capitalize;
   color: #fff;
 }
-<<<<<<< HEAD
 .about .about-text {
   margin-bottom: 16px;
   font-size: 18px;
@@ -582,7 +553,41 @@ html, body {
   transition: 0.3s;
   position: relative;
   top: 3px;
-=======
+}
+.homes__body {
+  margin-top: 155px;
+  padding-left: 100px;
+  width: 1440px;
+  background: url("/img/homes.png") 30px 75px no-repeat;
+}
+.homes__title {
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #00ffa3;
+}
+.homes__subtitle {
+  margin-bottom: 71px;
+  font-size: 60px;
+  text-transform: capitalize;
+  color: #fff;
+}
+.homes__columns {
+  display: flex;
+}
+.homes__image {
+  margin-right: 70px;
+  margin-bottom: 24px;
+}
+.homes__house-name {
+  position: relative;
+  display: inline;
+  font-size: 48px;
+  text-transform: capitalize;
+  color: #fff;
+}
 .homes__address {
   position: relative;
   display: inline;
@@ -655,5 +660,4 @@ html, body {
 .homes .address2 {
   top: -5px;
   left: 61px;
->>>>>>> 75eaabc5523413be58a394d8ef80f9437518be05
 }
