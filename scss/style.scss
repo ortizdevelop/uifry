@@ -591,12 +591,27 @@ html, body{
 .about {
 
     &__body {
+        width: 1440px;
+        height: 1308px;
+        margin-left: 100px;
+        background: url('/img/about.png')0px 0px no-repeat;
     }
 
     &__title {
+        margin-top: 155px;
+        margin-bottom: 16px;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 30px;
+        text-transform: capitalize;
+        color: #00ffa3;
     }
 
     &__subtitle {
+        margin-bottom: 106px;
+        font-size: 60px;
+        text-transform: capitalize;
+        color: #fff;
     }
 
     &__browse {
@@ -688,6 +703,3 @@ html, body{
 
 
 //* Footer
-
-
-//* General Classes
