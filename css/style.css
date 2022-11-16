@@ -448,11 +448,108 @@ html, body {
 
 .homes__body {
   margin-top: 155px;
+  padding-left: 100px;
   width: 1440px;
+  background: url("/img/homes.png") 30px 75px no-repeat;
 }
 .homes__title {
   margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #00ffa3;
 }
 .homes__subtitle {
   margin-bottom: 71px;
+  font-size: 60px;
+  text-transform: capitalize;
+  color: #fff;
+}
+.homes__columns {
+  display: flex;
+}
+.homes__image {
+  margin-right: 70px;
+  margin-bottom: 24px;
+}
+.homes__house-name {
+  position: relative;
+  display: inline;
+  font-size: 48px;
+  text-transform: capitalize;
+  color: #fff;
+}
+.homes__address {
+  position: relative;
+  display: inline;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #fff;
+}
+.homes__profile {
+  margin-top: 24px;
+  display: flex;
+}
+.homes__profile-name {
+  position: relative;
+  top: 30px;
+  left: 20px;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #fff;
+}
+.homes__profile-link {
+  position: relative;
+  width: 111px;
+  height: 58px;
+  text-align: center;
+  align-items: center;
+  padding-top: 15px;
+  border: 1px solid #00FFA3;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+.homes__profile-link span {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: #00ffa3;
+  transition: 0.3s;
+}
+.homes__profile-link:hover {
+  transition: 0.3s;
+  background-color: #00FFA3;
+  transform: scale(1.05);
+}
+.homes__profile-link:hover span {
+  color: #000000;
+}
+.homes__profile-link:active {
+  transition: 0.3s;
+  background-color: #000000;
+  border: none;
+}
+.homes__profile-link:active span {
+  transition: 0.3s;
+  color: #00FFA3;
+}
+.homes .profile-link1 {
+  top: 15px;
+  left: 475px;
+}
+.homes .profile-link2 {
+  top: 15px;
+  left: 305px;
+}
+.homes .address1 {
+  top: -5px;
+  left: 311px;
+}
+.homes .address2 {
+  top: -5px;
+  left: 61px;
 }
