@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>uifry</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
     <div class="wrapper">
         <div class="content">
             <header class="header">
-                <div class="header__body">
-                    <div class="header__nav">
-                        <ul class="header__nav-menu">
+                <div class="header__body wow animate__animated animate__fadeInRight">
+                    <div  class="header__nav">
+                        <ul data-wow-delay="1s" class="header__nav-menu wow animate__animated animate__fadeInUp">
                             <li class="header__nav-logo">
                                 <a href="">
                                     <img src="/img/logo.png" alt="">
@@ -56,30 +58,30 @@
                         </ul>
                     </div>
                     <div class="header__left">
-                        <div class="header__image">
+                        <div data-wow-delay="1.5s" class="header__image wow animate__animated animate__fadeIn">
                             <img src="/img/house.png" alt="">
                         </div>
-                        <div class="header__subtitle">
+                        <div data-wow-delay="1.75s" class="header__subtitle wow animate__animated animate__fadeInLeft">
                             <p>it’s your life. <br>
                                 take the keys.</p>
                         </div>
                         <div class="header__title">
-                            <p class="vision">a vision for liveable</p>
-                            <p class="affordable">and affordable homes.</p>
+                            <p data-wow-delay="3s" class="vision wow animate__animated animate__fadeInDown">a vision for liveable</p>
+                            <p data-wow-delay="3.5s" class="affordable wow animate__animated animate__fadeInUp">and affordable homes.</p>
                         </div>
                         <div class="header__portfolio">
                             <ul class="header__portfolio-column">
-                                <li class="header__portfolio-list get-started">
+                                <li data-wow-delay="4s" class="header__portfolio-list get-started wow animate__animated animate__zoomIn">
                                     <a href="">
                                         <p>Get <br>
                                             Started</p>
                                     </a>
                                 </li>
-                                <li class="header__portfolio-list trusted-companies">
+                                <li data-wow-delay="4.5s" class="header__portfolio-list trusted-companies wow animate__animated animate__zoomIn">
                                     <p>20%</p>
                                     <span>Trusted By Companies</span>
                                 </li>
-                                <li class="header__portfolio-list projects-completed">
+                                <li data-wow-delay="5s" class="header__portfolio-list projects-completed wow animate__animated animate__zoomIn">
                                     <p>13K</p>
                                     <span>Projects Completed</span>
                                 </li>
@@ -87,12 +89,12 @@
                         </div>
                     </div>
                     <div class="header__right">
-                        <div class="header__icon">
+                        <div data-wow-delay="1.5s" class="header__icon wow animate__animated animate__fadeIn">
                             <a href="">
                                 <img src="/img/button.png" alt="">
                             </a>
                         </div>
-                        <div class="header__desc">
+                        <div data-wow-delay="5.5s" class="header__desc wow animate__animated animate__backInDown">
                             <p><span>Donec cras</span> lacus, quis nunc urna. Feugiat neque, non, mi erat <br> 
                                 ultricies morbi. Habitasse iaculis sed morbi natoque. acus, <br>
                                  quis nunc urna. Feugiat neque, non, mi erat</p>
@@ -165,6 +167,10 @@
             </footer>
         </div>
     </div>
+    <script src="/js/wow.min.js"></script>
+    <script src="/js/script.js"></script>
+<script>
+    new WOW().init();
+    </script>
 </body>
-<script src="/js/script.js"></script>
 </html>

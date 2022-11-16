@@ -417,24 +417,33 @@ html, body{
 .select {
 
     &__body {
+        position: relative;
+        top: -40px;
         width: $width1;
         height: 1362px;
         background: #101010 url('/img/select-and-project.png') no-repeat;
     }
 
     &__up {
+        display: flex;
     }
 
     &__media {
+        display: flex;
+        margin-left: 100px;
+        margin-top: 120px; 
     }
 
     &__column {
+        display: flex;
     }
 
     &__list {
     }
 
     &__button {
+        display: flex;
+        margin-left: 112px;
     }
 
     &__button-text {

@@ -308,7 +308,24 @@ html, body {
 }
 
 .select__body {
+  position: relative;
+  top: -40px;
   width: 1694.5px;
   height: 1362px;
   background: #101010 url("/img/select-and-project.png") no-repeat;
+}
+.select__up {
+  display: flex;
+}
+.select__media {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 120px;
+}
+.select__column {
+  display: flex;
+}
+.select__button {
+  display: flex;
+  margin-left: 112px;
 }
