@@ -974,7 +974,7 @@ html, body{
         width: $width1;
         height: 512px;
         background-color: #101010;
-        padding-left: 100px;
+        padding-left: 150px;
     }
 
     &__left {
@@ -1025,13 +1025,18 @@ html, body{
         left: 155px;
         width: 505px;
         height: 82px;
-        background-color: $color6;
+        background-color: #101010;
         font-size: 18px;
         line-height: 30px;
         text-transform: capitalize;
         color: $color2;
-        border-bottom: 2px solid #00FFA3;
+        border-bottom: 2px solid rgb(0, 255, 163);
+        text-shadow: 1px 1px 8px rgba(0,255,163,0.44);
         padding-bottom: 38px;
+
+        &::placeholder{
+            text-shadow: none;
+        }
     }
 
     &__right-link {

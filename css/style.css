@@ -707,7 +707,7 @@ html, body {
   width: 1694.5px;
   height: 512px;
   background-color: #101010;
-  padding-left: 100px;
+  padding-left: 150px;
 }
 .footer__left {
   display: inline-block;
@@ -749,13 +749,23 @@ html, body {
   left: 155px;
   width: 505px;
   height: 82px;
-  background-color: #111111;
+  background-color: #101010;
   font-size: 18px;
   line-height: 30px;
   text-transform: capitalize;
   color: #00FFA3;
-  border-bottom: 2px solid #00FFA3;
+  border-bottom: 2px solid rgb(0, 255, 163);
+  text-shadow: 1px 1px 8px rgba(0, 255, 163, 0.44);
   padding-bottom: 38px;
+}
+.footer__right-input::-moz-placeholder {
+  text-shadow: none;
+}
+.footer__right-input:-ms-input-placeholder {
+  text-shadow: none;
+}
+.footer__right-input::placeholder {
+  text-shadow: none;
 }
 .footer__right-link {
   position: relative;
